@@ -1,5 +1,5 @@
 public class Palindrome_BinaryDecimal {
-    public static String BothDecimalBinary(Long number) {
+    public static String BothDecimalBinary(long number) {
         String str = Long.toBinaryString(number);
         int start = 0;
         int last = str.length() - 1;
