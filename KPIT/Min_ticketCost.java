@@ -37,5 +37,6 @@ public class Min_ticketCost {
 
         String result = minCost(ticket, k);
         System.out.println(result);
+        sc.close();
     }
 }

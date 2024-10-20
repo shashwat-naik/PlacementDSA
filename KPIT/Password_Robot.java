@@ -8,7 +8,7 @@ public class Password_Robot {
 
         if (example.length() < 6) {
             System.out.println("Invalid Password");
-            return;
+            // return;
         }
         boolean number = false, upperCase = false, lowerCase = false;
         boolean validPassword = true;
@@ -34,5 +34,6 @@ public class Password_Robot {
             else
                 System.out.println("Invalid Passwprd");
         }
+        sc.close();
     }
 }

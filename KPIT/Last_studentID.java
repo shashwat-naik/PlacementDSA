@@ -24,5 +24,6 @@ public class Last_studentID {
         char[] arr = str.toCharArray();
 
         System.out.println(lastString(arr));
+        sc.close();
     }
 }

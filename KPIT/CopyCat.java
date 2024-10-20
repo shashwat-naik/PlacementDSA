@@ -20,5 +20,7 @@ public class CopyCat {
             System.out.println("Copied word");
         else
             System.out.println("Not Copied");
+
+        sc.close();
     }
 }
