@@ -1,0 +1,368 @@
+Q.l What is a data structure?
+a) A programming language
+b) A collection of algorithms
+c) A way to store and organize data ---
+d) A type of computer hardware
+
+Q.2 What data structure would you mostly likely see in *
+non recursive implementation of a recursive algorithm?
+a) Stack ---
+b) Linked List
+c) Tree
+d) Queue
+
+Q.3 The data structure required for Breadth First *
+Traversal on a graph is?
+a) Array
+b) Stack
+c) Tree
+d) Queue --- 
+
+Breadth first traversal => Queue
+Depth first traversal => Stack
+
+Q.4 Which data structure is based on the Last In
+First Out (LIFO) principle?
+a) Tree
+b) Linked List
+c) Stack ---
+d) Queue
+
+Q.5 What is the output of the following Java code?
+public class array{
+public static void main(String args[]){
+int []arr = {1,2,3,4,5};
+System.out.println(arr[2]);
+System.out.println(arr[4]);
+}
+}
+a) 4 and 2
+b) 2 and 4
+c) 5 and 3
+d) 3 and 5 ---
+
+Q.6 What is Cloud Computing?
+a) Cloud Computing means providing services like storage, servers, database, networking, etc ---
+b) Cloud Computing means storing data in a database
+c) Cloud Computing is a tool used to create an application
+d) None of the mentioned
+
+
+Q. 7 Which of the following is not a type of cloud *
+server?
+a) Public Cloud Servers
+b) Private Cloud Servers
+c) Dedicated Cloud Servers 
+d) Merged Cloud Servers ---
+
+Q.8 Cloud computing is a concept that involves
+pooling physical resources and offering them as
+which sort of resource?
+a) cloud
+b) real
+c) virtual ---
+d) none of the mentioned
+
+Q.9 Which of the following case does not exist in
+complexity theory?
+a) Best case
+b) Worst case
+c) Average case
+d) Null case ---
+
+Q.10 The complexity of linear search algorithm is
+a) O(n) ---
+b) O(log n)
+c) O(n2)
+d) O(n log n)
+
+Q.11 The complexity of Binary search algorithm is
+a) O(n)
+b) O(log n) --- 
+c) O(n2)
+d) O(n log n)
+
+Linear Search Algo O(n)
+Binary Search Algo O(log n)
+O(1) -> O(n) -> O(n log n) -> O(n^2) -> O(2^n) -> O(n!)
+
+Q.12 How many children does a binary tree have?
+a) 2 
+b) any number of children
+c) 0 or 1 or 2 ---
+d) 0 or 1
+
+Q.13 The number of edges from the node to the
+deepest leaf is called
+of the tree.
+a) Height ---
+b) Depth 
+c) Length
+d) Width
+
+Q.14 The complexity of Fibonacci series is *
+a) O(2n) ---
+b) O(log n)
+c) O(n2)
+d) O(n log n) 
+
+Q.15 What is a dequeue?
+a) A queue implemented with both singly and doubly linked lists
+b) A queue with insert/delete defined for front side of the queue
+c) A queue with insert/delete defined for both front and rear ends of the queue ---
+d) A queue implemented with a doubly linked list
+
+Q.16 Which of the following is a type of cloud
+computing service?
+a) Service-as-a-Software (SaaS)
+b) Software-and-a-Server (SaaS)
+c) Software-as-a-Service (SaaS) ---
+d) Software-as-a-Server (SaaS)
+
+Q.17 Which of the following is an eg of cloud ? * 
+a) Amazon Web Services (AWS) 
+b) Dropbox
+c) Cisco WebEx
+d) All of the above ---
+
+Q.18 A graph is a tree if and only if graph is * 
+(A) Directed graph
+(B) Contains no cycles ---
+(C) Planar
+(D) Completely connected 
+
+Q.19 To perform level-order traversal on a binary tree, *
+which of the following data structure will be required?
+(A) Hash table
+(B) Queue ---
+(C) Binary search tree 
+(D) Stack
+
+Q.20 A binary tree in which all its levels except the last,
+have maximum numbers of nodes, and all the nodes in
+the last level have only one child it will be its left child.
+Name the tree.
+(A) Threaded tree
+(B) Complete binary tree ---
+(C) M-way search tree
+(D) Full binary tree
+
+Q.21 Which software prevents the external access
+to a system?
+A. Firewall ---
+B. Gateway
+C. Router
+D. Virus checker
+
+Q.22 Which one of the following is the most
+common internet protocol?
+A. HTML
+B. NetBEUI
+C. TCP/IP ---
+D. IPX/SPX
+
+Q.23 The term FTP stands for?
+A. File transfer program
+B. File transmission protocol
+C. File transfer protocol ---
+D. File transfer protection
+
+Q.24 The number of edges in a complete graph of *
+n vertices is
+A. n(n+1)/2 
+B. n(n-1)/2 ---
+C. n^2/2
+D. n
+
+Q.25 Quick sort is also known as
+A. merge sort
+B. tree sort
+C. shell sort
+D. partition and exchange sort ---
+
+Q.26  ____ sorting is good to use when alphabetizing a large list of names *
+A. Merge
+B. Heap 
+C. Radix ---
+D. Bubble
+
+Q.27 Which architectural layer is used as a *
+backend in cloud computing?
+a) cloud ---
+b) soft
+c) client
+d) all of the mentioned 
+
+Q.29 What is the output of the given Code ?
+#include<stdio.h>
+int main(){
+static int i = 5;
+if (--i){
+printf("%d ",i);
+main();
+}
+}
+
+a) 4 3 2 1 ---
+b) 4 4 4 4
+c) 0 0 0 0
+d) 1 2 3 4 
+
+Q.30 What is the output of the give Code?
+Integer a, b, c
+Set b = 4, c = 5
+for(each a from 2 to 4)
+print c
+b=b-l
+end for
+
+A. 5 8 10 ---
+B. 1 3 6
+c. 8 9 10
+D. 11 13 15
+
+Q.31 Find the output of the Code ?
+Integer a, b, c
+Set b -O, c: O
+for(each a from 1 to 5)
+print c
+b=b+l
+end for
+
+A. 5 4 3 2 1
+B. 0 1 3 6 10 ---
+C. 2 5 8 9 10
+D. 0 0 0 0 0
+
+Q.32 The term push and pop is related to
+A. Array
+B. Lists
+C. Stacks ---
+D. Trees
+
+Q.33 The operation of processing each element in *
+the list is known as ......
+A. sorting
+B. merging
+C. inserting 
+D. traversal ---
+
+Q.34 Who created the first DBMS? *
+a) Edgar Frank Codd
+b) Charles Bachman ---
+c) Charles Babbage
+d) Sharon B. Codd
+
+Q.35 Which type of data can be stored in the *
+database?
+a) Image oriented data
+b) Text, files containing data
+c) Data in the form of audio or video
+d) All of the above ---
+
+Q.36 Which of the following is not a function of
+the database?
+a) Managing stored data
+b) Manipulating data
+c) Security for stored data
+d) Analysing code ---
+
+Q.37 What should be done when a left parenthesis *
+'(' is encountered?
+a) It is ignored 
+b) It is placed in the output
+c) It is placed in the operator stack ---
+d) The contents of the operator stack is emptied
+
+Q.38 Which of the following is an infix expression?
+a) (a+b)*(c+d) ---
+b) ab+c*
+c) +ab
+d) abc+*
+
+Q.39 It is easier for a computer to process a postfix
+expression than an infix expression.
+a) True ---
+b) False
+
+Q.40 What is the postfix expression for the
+infix expression?
+a-b-c
+a) -ab-c
+b) ab-c- ===
+c) - -abc
+d) -ab-c
+
+Q.41 In infix to postfix conversion algorithm, the *
+operators are associated from?
+a) right to left 
+b) left to right ---
+c) centre to left
+d) centre to right
+
+Q.42 Which of the following is non-linear data
+structure?
+A) Stacks
+B) List
+C) Strings
+D) Trees ---
+
+Linear Data Structure => (Array, String, Stack, Queue)
+Non-Linear Data Structure => (Trees, DP, Graph)
+
+Q.43 Which of the following is an application of *
+stack?
+A. finding factorial
+B. tower of Hanoi 
+C. infix to postfix
+D. all of the above ---
+
+Q.44 What does an RDBMS consist of?
+a) Collection of Records
+b) Collection of Keys
+c) Collection pf Tables ---
+d) Collection of Fields
+
+Q.45 Which of the following is not a type of
+database?
+a) Hierarchical
+b) Network
+c) Distributed
+d) Decentralized ---
+
+Q.46 Which of the following is a component of the
+DBMS?
+a) Data
+b) Data Languages
+c) Data Manager
+d) All of the above ---
+
+Q.47 What is information about data called ?
+a) Hyper data
+b) Tera data
+c) Meta data ---
+d) Relations
+
+Q.48 Which one of the following is not a function
+of network layer?
+a) congestion control
+b) error control ---
+c) routing
+d) inter-networking
+
+Q.49 Which of the following ways can be used to
+represent a graph?
+a) Adjacency List and Adjacency Matrix
+b) Incidence Matrix
+c) Adjacency List, Adjacency Matrix as well as Incidence Matrix ---
+d) No way to represent
+
+Q.50 Which of the following is not the type of
+queue?
+a) Priority queue
+b) Circular queue
+c) Single ended queue ---
+d) Ordinary queue 
+
+33/50 + 1
+Graph, time complexity, level order traversal, sorting, Infix/Postfix/Prefix expression, OSI model, Adjacency List / Adjacency matrix / Incidence Matrix

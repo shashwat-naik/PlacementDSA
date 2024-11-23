@@ -1,0 +1,158 @@
+Q.l What is the output of the following
+pseudocode if a=5, b=3?
+while (a > b):
+  a = a-1
+print(a)
+
+A) 5
+B) 4
+C) 3 ---
+D) 2
+
+Q.2 Which data structure uses LIFO (Last In
+First Out) operation?
+A) Queue
+B) Stack ---
+C) Array
+D) Linked List
+
+Q.3 What will be the output of the following
+pseudocode for input n1=5 and n2=8?
+while (nl <= 6):
+  print(n2)
+  n3 = nl + n2
+  nl = n2
+
+A) 8 13
+B) 5 8
+c) 8 13 21
+D) None of the above ---
+
+Q.4 What is the time complexity of inserting an
+element at the beginning of a linked list?
+A) O(1) ---
+B) O(n)
+C) O(log n)
+D) O(n log n)
+
+Q.5 Which data structure is needed to convert infix
+notation to postfix notation?
+a) Tree
+b) Branch
+c) Stack ---
+d) Queue
+
+Q.6 The data structure required for Breadth
+First Traversal on a graph is?
+a) Array
+b) Stack
+c) Tree
+d) Queue ---
+
+Q. 7 What is the output of the following code?
+int a = 5;
+printf("%d", ++a);
+A) 5
+B) 6 ---
+C) Compilation error
+D) Undefined
+
+Q.8 In which service model does the customer manage
+the application and data, but not the infrastructure or
+A) IaaS
+B) Paas ---
+C) SaaS
+D) DaaS
+
+Q.9 Which of the following is NOT a characteristic *
+of cloud computing?
+A) High scalability
+B) Low latency ---
+C) Pay-per-use pricing
+D) Unlimited computing resources 
+
+Q.10 Which is the most appropriate data structure
+for reversing a word?
+a) stack ---
+b) queue
+c) graph
+d) tree
+
+Q.11 Which protocol is used to convert IP addresses *
+into MAC addresses in a local area network?
+A) ARP ---
+B) DNS 
+C) DHCP
+D) FTP
+
+Q.12 What is the space complexity of the *
+following function?
+int sum(int A[], int n) {
+int sum = O, i;
+for(i = 0; i < n; i++)
+sum = sum + A[i];
+return sum;
+} 
+A) O(1) ---
+B) O(n) 
+C) O(n^2)
+D) O(log n)
+
+Q.13 Which protocol is used for sending emails? *
+A) SMTP ---
+B) IMAP
+C) POP3
+D) FTP
+
+Q.14 What is the default port for HTTPS? *
+A) 80 
+B) 21
+C) 443 ---
+D) 22
+
+Q.15 The data structure required to check whether
+an expression contains a balanced parenthesis is?
+a) Queue
+b) Stack ---
+c) Tree
+d) Array
+
+Q.16 What will be the final value of the variable
+count after the following pseudocode runs?
+n = 10
+count = 0
+while (n > 5):
+count = count + 1
+n=n-l
+
+A) 5 ---
+B) 4
+C) 6
+D) 0
+
+Q.17 What does IaaS provide in cloud computing?
+A) Software
+B) Storage, network, and virtual machines ---
+C) Platforms for building applications
+D) All of the above
+
+Q.18 What is the primary function of a firewall?
+A) To prevent unauthorized access to or from a private network ---
+B) To amplify the network signals
+C) To route traffic between networks
+D) To store network configurations
+
+Q.19 What is DBMS?
+a) DBMS is a collection of queries
+b) DBMS is a high-level language
+c) DBMS is a programming language
+d) DBMS stores, modifies and retrieves data ---
+
+Q.20 In which of the following formats data is
+stored in the database management system?
+a) Image
+b) Text
+c) Table ---
+d) Graph
+
+15/20 + 1

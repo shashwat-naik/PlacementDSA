@@ -1,0 +1,22 @@
+diff bet cpp & java
+inheritance in java or cpp
+DYK SQL
+diff bet IPv4 IPv6
+what is method overloading & method overriding
+Normalization & its forms in sql
+Do you know what OS are ?
+
+
+LOGIC 
+number is prime or not
+palindrome 
+reverse the number and check if the number still the same
+fibonacci series
+
+
+you are the lead of the project and you are having problem with the teammates that are working with you how to overcome the problem.
+how to motivate people to work on the days when they don't feel like working ?
+how would you bind people together in a team to work together.
+
+
+

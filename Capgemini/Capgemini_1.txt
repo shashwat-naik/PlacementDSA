@@ -1,0 +1,137 @@
+Q.l Which data structure is used for implementing recursion?
+a) Stack ---
+b) Queue
+c) List
+d) Array
+
+Q.2 The data structure required to check whether *
+an expression contains a balanced parenthesis is?
+a) Queue
+b) Stack ---
+c) Tree
+d) Array 
+
+Q.3 The data structure required for Breadth *
+First Traversal on a graph is?
+a) Array
+b) Stack 
+c) Tree
+d) Queue ---
+
+Breadth first traversal => Queue
+Depth first traversal => Stack
+
+Q.4 What is a bit array? *
+a) Data structure that compactly stores bits ---
+b) Data structure for representing arrays of records
+c) Array in which elements are not present in continuous locations
+d) An array in which most of the elements have the same value 
+
+Q.5 Which data structure is needed to convert infix
+notation to postfix notation?
+a) Tree
+b) Branch
+c) Stack ---
+d) Queue
+
+Q.6 Which of the following statements is incorrect
+for Linked list data structure?
+A. Memory allocation from Heap
+B. Memory allocation from stack ---
+C. Size is not fixed.
+D. It occupies more memory than array.
+
+Q.7 What is an AVL tree?
+a) a tree which is unbalanced and is a height balanced tree
+b) a tree which is balanced and is a height balanced tree ---
+c) a tree with atmost 3 children
+d) a tree with three children
+
+Q.8 Which of the following data structures is non-
+linear?
+A. Stack
+B. Array
+C. Graph ---
+D. Linked List
+
+Q.9 Which is the most appropriate data structure
+for reversing a word?
+a) stack ---
+b) queue
+c) graph
+d) tree
+
+Q.10 The complexity of Binary search algorithm is *
+a) O(n) 
+b) O(logn) ---
+c) o(n2)
+d) O(n log n)
+
+Q.11 The Worst case occur in linear search
+algorithm when ______
+a) Item is somewhere in the middle of the array
+b) Item is not in the array at all
+c) Item is the last element in the array
+d) Item is the last element in the array or is not there at all ---
+
+Q.12 The worst case complexity of quick sort is *
+a) O(n)
+b) O(log n) 
+c) o(n2) ---
+d) O(n log n)
+
+Q 13 Which of the following is an infix expression?
+a) (a+b)*(c+d) ---
+b) ab+c*
+c) +ab
+d) abc+*
+
+Q. 14 What is the time complexity of an infix to *
+postfix conversion algorithm?
+a) O(log N) 
+b) O(N) ---
+c) O(N2)
+d) O(M log N)
+
+Q. 15 It is easier for a computer to process a postfix
+expression than an infix expression.
+a) True ---
+b) False
+
+Q.16 Which type of data can be stored in the
+database?
+a) Image oriented data
+b) Text, files containing data
+c) Data in the form of audio or video
+d) All of the above  ---
+
+Q.17 In which of the following formats data is
+stored in the database management system?
+a) Image
+b) Text
+c) Table ---
+d) Graph
+
+Q.18 If you are using Bubble sort for sorting the given
+numbers in ascending order, then find out the number of
+swapping needed.
+3,10,4,7,9,2,6
+A. 12
+B. 14
+C. 11 ---
+D. 8
+
+Q.19 The number of edges from the root to the node is called ____
+of the tree.
+a) Height ---
+b) Depth 
+c) Length
+d) Width
+
+Q.20 What is a full binary tree? *
+a) Each node has exactly zero or two children ---
+b) Each node has exactly two children
+c) All the leaves are at the same level
+d) Each node has exactly one or two children 
+
+13/20

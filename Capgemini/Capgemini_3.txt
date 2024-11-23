@@ -1,0 +1,152 @@
+Q1. Consider an array A = { 2, 4, 61, 17, 8, 10, 13, 34,
+67, 98 } and key element equals 88. How many
+comparison will it take to find the key element in the
+array using linear search algorithmn ?
+a: 11
+b. 8
+c. 9
+d: 10 ---
+
+Q2. What does the following piece of-rode do? *
+public void func(Tree root)
+func(root.left());
+func(root.right());
+System.out.println(root.data());
+a) Preorder traversal
+b) Inorder traversal
+c) Postorder traversal ---
+d) Level order traversal
+
+Q.3 Write the output of the given code ?
+Integer x, y
+Set x = 4, y = 8
+do{
+Print x
+while(x < 15)
+end do while
+A. 14 26
+B. 15 17
+C. 4 13 ---
+D. 4
+
+Q.4 Which of the following is an example of the
+cloud?
+a) Amazon Web Services (AWS)
+b) Dropbox
+c) Cisco WebEx
+d) All of the above ---
+
+Q.5 Which one of the following options can be *
+considered as the Cloud?
+A. Hadoop ---
+B. Intranet
+C. Web Applications
+D. All of the mentioned
+
+Q.6 Which of the following is an essential concept *
+related to Cloud?
+A. Reliability
+B. Abstraction ---
+C. Productivity
+D. All of the mentioned 
+
+Q.7 How can we describe an array in the best
+possible way ?
+A. The Array shows a hierarchical structure.
+B. Arrays are immutable.
+C. Container that stores the elements of similar types ---
+D. The Array is not a data structure
+
+Q.8 Which of the following is the disadvantage of
+the array?
+A. Stack and Queue data structures can be implemented through an array.
+B. Index of the first element in an array can be negative
+C. Wastage of memory if the elements inserted in an array are lesser than the allocated size ---
+D. Elements can be accessed sequentially.
+
+Q.9 When the user tries to delete the element from *
+the empty stack then the condition is said to be a
+A. Underflow ---
+B. Garbage collection
+C. Overflow
+D. None of the above 
+
+Q.10 If the size of the stack is 10 and we try to add
+the 11th element in the stack then the condition is
+known as
+A. Underflow
+B. Garbage collection
+C. Overflow ---
+D. None of the above
+
+Q.11 Which data structure is required to convert
+the infix to prefix notation?
+A. Stack ---
+B. Linked list
+C. Binary tree
+D. Queue
+
+Q.12 Which of the following is the infix
+expression?
+A. A+B*C ---
+B. +A*BC
+C. ABC+*
+D. None of the above
+
+Q.13 If the elements '1', '2', '3' and '4' are added in a
+stack, so what would be the order for the removal?
+A. 1234
+B. 2134
+C. 4321 ---
+D. None of the above
+
+Q.14 Which one of the following is not the type of
+the Queue?
+A. Linear Queue
+B. Circular Queue
+C. Double ended Queue
+D. Single ended Queue ---
+
+Q.15 The worst case complexity of quick sort is
+a) O(n)
+b) O(log n)
+c) O(n^2) ---
+d) O(n log n)
+
+Q.16 The complexity of merge sort algorithm is ****
+a) O(n)
+b) O(log n)
+c) O(n^2) ===
+d) O(n log n) ---
+
+Q.17 A huge collection of the information or data
+accumulated form several different sources is
+known as
+A. Data Management
+B. Data Mining
+C. Data Warehouse ---
+D. Both B and C
+
+Q.18 Which of the following can be used to extract
+or filter the data & information from the data
+warehouse?
+A. Data redundancy
+B. Data recovery tool
+C. Data mining ---
+D. Both B and C
+
+Q.19 In the linked list implementation of queue,
+where will the new element be inserted?
+A. At the middle position of the linked list
+B. At the head position of the linked list
+C. At the tail position of the linked list ---
+D. None of the above
+
+Q.20 How many Queues are required to implement **
+a Stack?
+A. 3
+B. 2 ---
+C. 1 
+D. 4
+
+14/20 (started from 5)

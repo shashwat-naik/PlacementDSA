@@ -1,0 +1,378 @@
+Q1. Which of the following is the time complexity to search an element in the linked list?
+a. 0(1)
+b. O(n) ---
+c. O(logn)
+d. O(nlogn)
+
+Q2. struct node{        ***
+int data;
+struct node *next;}
+node ptr;
+Which one of the following is the correct option to create a new node
+a. ptr = (node*)malloc(sizeof(node*))
+b. ptr = (node)malloc(sizeof(node))
+c. ptr = (node*)malloc(sizeof(node)) ---
+d. none 
+
+Q3. Which of the following data structure allows to insert the elements from both the ends while deletion from only one ***
+end?
+a. Input-restricted queue 
+b. Output-restricted queue --- (deletion only from front end)
+c. Priority queue 
+d. None of the above
+
+Input-restricted Queue => Enqueue(insert) one/rear end | Dequeue(delete) both ends
+Output-restricted Queue => Enqueue(insert) Both ends | Dequeue(delete) one/front end
+
+Q4. Which data structure is the best for implementing a priority queue?
+a. Stack
+b. Linked list
+c. Array
+d. Heap ---
+
+Q5. What would be the output after the following ogprations in a Deque?
+    Insertfront(10);
+    Insertfront(20);
+    Insertrear(30);
+    Insertrear(40);
+    Deletefront();
+    Insertfront(50);
+    Deleterear();
+    Display();
+a. 10, 20, 30
+b. 50, 10, 30 ---
+c. 40, 20, 30
+d. None of the above
+
+Q6. int fun(){
+    if(isEmpty()){
+        return -10;}
+    else{
+        int n;
+        n = q[front];
+        front++;
+        return n;}
+    }
+Which operation the above code perform ?
+
+a. Enqueue
+b. Dequeue
+c. Return the front element 
+d. Both b and c ---
+
+Q7. Which of the following principle does Queue use?
+a. LIFO principle
+b. FIFO principle ---
+c. Linear tree
+d. Ordered array
+ 
+Q8. Which one of the following is not the type of the Queue?
+a. Linear Queue
+b. Circular Queue
+c. Double ended Queue
+d. Single ended Queue ---
+
+Q9. Consider the following stack implement«i using stack ***
+*define SIZE 11
+struct STACK
+{
+int arr[SlZE];
+int top=-l;
+}
+What would be the maximum value of the top that does not cause the overflow of the stack?
+a. 8
+b. 9
+c. 11 
+d. 10 --- (as there is already a number inside the stack so 1+10 i.e 10 is the ans)
+
+Q10. Which of the following is the infix expression?
+a. A+B*C ---
+b. +A*BC
+c. ABC+*
+d. None of the above
+
+Q11 In a complete k-ary tree, every internal node has exactly k children or no child. The number of leaves in such a ***
+tree with n internal nodes is:
+a. nk
+b. (n-1)k+1
+c. n(k-1)+1 ---
+d. n(k-1)
+  
+Q12. Which of the following is not the correct statement for a stack data structure?
+a. Arrays can be used to implement the stack
+b. Stack follows FIFO ---
+c. Elements are stored in a sequential manner
+d. Top of the stack contains the last inserted element
+
+Q13     ****
+#include<stdio.h> **
+int main(){
+static int i=5;
+if (--i){
+printf("%d ",i)
+main();}
+}
+
+a. 4 3 2 1 ---
+b. 4 4 4 4 
+c. 0 0 0 0
+d. 1 2 3 4
+
+Q14. (https://youtu.be/uagCF1AZ8x4?si=v3B9rRF3-QrRTgWZ&t=2172) ***
+int f(int &x, int c){
+    c=c-1;
+    if(c==0) return 1;
+    x=x+1;
+    return f(x,c)*x;
+}
+In above program the second parameter is passed by reference and
+the second parameter is passed by value. If the value of p=5
+before the call then what is the value that returned by f(p, p) ?
+
+a) 6561 --- 
+b) 161051
+c) 55440
+d) 3024
+
+Q15. What will be the output if limit 6? **&&*
+Read limit n1=0, n2=1, n3=1, count = 1;
+while count <= limit
+count=count+1
+print n3
+n3=n1+n2
+n1=n
+n2=n3
+End While
+
+A. 1 2 3 5 8 13 ---
+B. 1 2 3 5 8 ====
+C. 2 3 5 8 13 21
+D. 1 2 3 5 8 132
+
+Q16  For input a=8 & b=9.
+Function(input a, input b)
+If(a<b)
+return function(b,a)
+elseif(b!=0)
+return (a+function(a,b-1))
+else
+return 0
+
+A. 56
+B. 88
+C. 72 ----
+D. 65
+
+Q17. Integer arr= {2,3,3,4}  ***&&* (https://youtu.be/uagCF1AZ8x4?si=jTkEpb6Wk25x-7eA&t=2533) 
+arr[2]=(6+7)+arr[3]
+if((1+7+arr[0])<(7^arr[1]))
+    arr[1]=arr[3]+arr[0]
+Else
+arr[3]=arr[2]+arr[1]+arr[1]
+End if
+if((arr[3]+arr[0])>(arr[0]-arr[3]))
+    arr[3]=(10 & 8)+arr[2]
+End if
+Print arr[1]+arr[2]+arr[3]
+A) 40
+B) 44 ----
+C) 56
+D) 50
+
+Q18. The given Query Can be replaced with
+SELECT name
+FROM instructorl
+WHERE salary AND salary 9øeeø;
+a.
+SELECT name
+FROM instructorl
+WHERE salary BETWEEN 100000 AND 90000
+b.
+SELECT name
+FRff•1 instructorl
+WHERE salary BETWEEN 90000 AND 100000;
+c. ---------------------------------------
+SELECT name
+FROM instructorl
+WHERE salary BETWEEN 90000 AND 100000;
+d.
+SELECT name
+FROM instructor!
+WHERE salary 90000 AND salarp-100000;
+
+Q19. Which of the following refers to the level of data abstraction ***
+that describes exactly how the data actually stored?
+a) Conceptual Level
+b) Physical Level ---
+c) File Level
+d) Logical Level 
+
+Q20. Which of the following command is a type of Data Definition
+language command?
+a) Create --- (drop & alter)
+b) Update
+c) Delete
+d) Merge
+
+Q21. The term "TCL" stands for
+a) Ternary Control Language
+b) Transmission Control Language
+c) Transaction Central Language
+d) Transaction Control Language ---
+
+Q22. Which of the following is used in the application programs to request *
+data from the database management system?
+a) Data Manipulation language ---
+b) Data Definition Language
+c) Data Control Language
+d) All of the above 
+
+Q23. The given Query can also be replaced with **
+SELECT name, course id
+FROM instructor, teaches
+WHERE instructor teaches ID;
+A)Se1ect name, course id from teaches, instructor where instructor id=course_id;
+B)Se1ect name, course_id from instructor natural join teaches; ---------------------------
+C) Select name, course id from instructor;
+D)Se1ect course_id from instructor join teaches;
+
+Q24. Read Query:
+SELECT emp_name
+FROM department
+WHERE dept_name LIKE '___ Computer Science";
+In the above-given Query,which of following can be placed in
+the Query's blank portion to select the "dept_name" that also 
+contains Computer Science as its ending string ?
+
+a) &
+b) _
+c) % ------
+d) $
+
+Q25. A local area network (LAN) is defined by
+A. The geometric size of the network ---
+B. The maximum number of hosts in the network
+C. The maximum number hosts in the network and/or the geometric size of the networ
+D, The topology of the network
+
+Q26. The largest geographic area a wide area network (WAN) can span is **
+A. a town 
+B. a state 
+C. a country
+D. the world ---
+
+Q27. In the TCP/IP protocol suite, which of the following is an application layer protocol? **
+A. The User Datagram Protocol (UDP)
+B. The Internet Protocol (IP)
+C. The File Transfer Protocol (FTP) ---
+D. The Transmission Control Protocol (TCP)
+
+Q28 In the TCP/IP protocol suite, which of the following is a transport layer protocol? ***
+A. The Internet Control Message protocol (ICMP)
+B. The Internet Protocol (IP)
+C. The Address Resolution Protocol (ARP)
+D. The Transmission Control Protocol (TCP) ---
+
+Q29 UDP packets are called 
+A. user datagrams ---
+B. segments
+C. frames
+D. None of the choices are correct
+
+Q30 Cloud computing is a kind of abstraction which is based on the notion of combining physical resources and represents them
+as ____ resources to users.
+a) Real
+b) Cloud
+c) Virtual ---
+d) none of the mentioned
+
+Q31 Which one of the following cloud concepts is related to sharing and pooling the re
+Polymorphism
+a. Polymorphism
+b. Virtualization ---
+c. Abstraction
+d. None of the mentioned
+
+Q32 Which of the following is an essential concept related to Cloud?
+a. Reliability
+b. Abstraction ---
+c. Productivity
+d. All of the mentioned
+
+Q33 In cloud computing, the client is on which end.
+a. Backend
+b. Frontend ---
+c. Depends
+d. Both a and b
+
+client => front end
+cloud => Backend
+
+Q34. Google cloud platform is an example for
+a. Private Cloud
+b. Public Cloud ---
+c. Hybrid cloud
+d. Community Cloud
+
+Q35 The Collaboration of Private and Public cloud is
+a. Hybrid Cloud ---
+b. Community Cloud
+c. Cloud Engine
+d. cloud servers
+
+Q36 Which of the following statements is incorrect for Linked list
+data structure?
+A. memory allocation from Heap
+B. memory allocation from stack ---
+C. Size is not fixed.
+D. It occupies more memory than array.
+
+Q37. If you are using Bubble sort for sorting the given numbers in
+ascending order, then find out the number of swapping needed.
+12, 16, lø, 7, 13, 3, 9
+A. 14
+B. 16
+C. 12
+D. 15 ---
+
+Q38 Convert the postfix expression into infix.
+ ab + cd * f/ -g +
+
+a) (a+b)*(c-d) / (f +g)
+b) A+b - (c * d) + (f/g)
+c) ((a+b)-((c*d)/f)) + g ----
+d) A + (b-c) / d * (f + g)
+
+Q39 Evaluate the given postfix expression.
+a) 210
+b) 225 ---
+c) 220
+d) 200
+
+Q40 If we draw a binary search tree by inserting the given numbers from left
+to right. then what would be the height of the BST?
+        1,4,3,5,7,9
+A. 5 ---
+B. 4
+C. 3
+D. 2
+
+Q41 Which of the following data structures is non-linear?
+a. Stack
+b. Array
+c. Graph ---
+d. Linked List
+
+Q42 Linked lists are used to implement
+1. Stack
+2. Queue
+3. Trees
+
+A. 1 & 2
+B. All 1,2,3 ---
+C. 1 & 3
+D. 2 & 3 
+
+
+28/42 + 1(Q11) + 1(Q15)
+abstraction levels, protocol layer info diag., 
