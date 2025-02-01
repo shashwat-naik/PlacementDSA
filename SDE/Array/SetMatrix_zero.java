@@ -10,7 +10,7 @@ public class SetMatrix_zero {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (matrix.get(i).get(j) == 0) {
-                    matrix.get(i).set(0, 0);
+                    matrix.get(i).set(0, 0); 
 
                     // here in [0][0] place for recording the col part we need to create a separate
                     // place which goes by the name col0.
