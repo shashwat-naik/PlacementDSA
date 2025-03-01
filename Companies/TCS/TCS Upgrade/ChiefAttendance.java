@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ChiefAttendance {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt(); 
+        int t = sc.nextInt();  
         while (t-- > 0) {
             int n = sc.nextInt();
             String[] fName = new String[n], lName = new String[n];
