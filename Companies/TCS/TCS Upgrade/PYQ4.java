@@ -24,35 +24,35 @@ public class PYQ4 {
     }
 
     // Q2** 2 wheeler & 4 wheeler number from information
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int v = sc.nextInt();
-        int w = sc.nextInt();
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int v = sc.nextInt();
+//         int w = sc.nextInt();
 
-        float x = ((4 * v) - w) / 2;
-        if (w >= 2 && w % 2 == 0 && v < w)
-            System.out.println((int) x + " " + (v - (int) x));
-        else
-            System.out.println("Invalid Input");
-        sc.close();
-    }
+//         float x = ((4 * v) - w) / 2;
+//         if (w >= 2 && w % 2 == 0 && v < w)
+//             System.out.println((int) x + " " + (v - (int) x));
+//         else
+//             System.out.println("Invalid Input");
+//         sc.close();
+//     }
 
-    // Q3** From the list of currency notes find the perfect sequence
-    public static void main(String[] args) {
+//     // Q3** From the list of currency notes find the perfect sequence
+//     public static void main(String[] args) {
 
-        Integer[] arr = { 1, 5, 10, 50, 100, 500, 1000 };
-        int n = arr.length;
-        int V = 70;
-        int count = 0;
+//         Integer[] arr = { 1, 5, 10, 50, 100, 500, 1000 };
+//         int n = arr.length;
+//         int V = 70;
+//         int count = 0;
 
-        Arrays.sort(arr, Collections.reverseOrder());
-        for (int i = 0; i < n; i++) {
-            while (V >= arr[i]) {
-                V -= arr[i];
-                count++;
-            }
-        }
-        System.out.println("Min num of denominations: " + count);
+//         Arrays.sort(arr, Collections.reverseOrder());
+//         for (int i = 0; i < n; i++) {
+//             while (V >= arr[i]) {
+//                 V -= arr[i];
+//                 count++;
+//             }
+//         }
+//         System.out.println("Min num of denominations: " + count);
 
-    }
+//     }
 }
