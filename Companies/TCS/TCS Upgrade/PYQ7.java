@@ -52,4 +52,20 @@ public class PYQ7 {
         }
         System.out.println("Minimum number of elements to be removed: " + count);
     }
+
+    // Q3 Convert lowercase to uppercase and vice versa
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        StringBuilder result = new StringBuilder();
+
+        for (char ch : input.toCharArray()) {
+            if (Character.isLetter(ch))
+                result.append((char) (ch ^ 32));
+            else
+                result.append(ch);
+        }
+        System.out.println(result.toString());
+        sc.close();
+    }
 }
