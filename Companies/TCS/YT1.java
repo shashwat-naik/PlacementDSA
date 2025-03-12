@@ -30,3 +30,4 @@ public class YT1 {
         sc.close();
     }
 }
+// focus on q2 voting algo and coding part 2.
