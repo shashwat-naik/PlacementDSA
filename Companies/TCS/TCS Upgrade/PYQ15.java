@@ -37,7 +37,6 @@ public class PYQ15 {
     //     int limit = sc.nextInt();
 
     //     System.out.println("Minimum boats required: " + numRescueBoat(people, limit));
-
     //     sc.close();
     // }
 

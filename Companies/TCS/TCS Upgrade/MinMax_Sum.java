@@ -16,8 +16,8 @@ public class MinMax_Sum {
         for (int i = 1; i < arr.length; i++) {
             if (min > arr[i])
                 min = arr[i];
-            if (min > arr[i])
-                min = arr[i];
+            if (max < arr[i])
+                max = arr[i];
             sum += arr[i];
 
         }
