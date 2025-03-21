@@ -25,5 +25,4 @@ Aptitude
 compound interest and money related
 lcm rcm percentage.
 
-Exam over..
 
