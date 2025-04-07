@@ -2,16 +2,16 @@ import java.util.Scanner;
 import java.util.HashMap;
 
 public class Fraction_to_recDecimal {
-    public static String fractionToDecimal(int numerator, int denominator) {
-        if (numerator == 0)
+    public static String fractionToDecimal(int nume, int denom) {
+        if (nume == 0)
             return "0";
 
         StringBuilder ans = new StringBuilder();
-        if ((numerator < 0) ^ (denominator < 0))
+        if ((nume < 0) ^ (denom < 0))
             ans.append("-");
 
-        long num = Math.abs((long) numerator);
-        long den = Math.abs((long) denominator);
+        long num = Math.abs((long) nume);
+        long den = Math.abs((long) denom);
 
         ans.append(num / den);
         num %= den;
