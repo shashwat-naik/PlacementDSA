@@ -4,7 +4,7 @@ import java.util.List;
 public class Remove_Comments {
     public static List<String> removeComm(String[] str) {
         List<String> result = new ArrayList<>();
-        boolean mode = false; // are we inside a block comment?
+        boolean mode = false; 
         StringBuilder store = new StringBuilder();
 
         for (String s : str) {
